@@ -22,6 +22,12 @@ body {
 	font-size: calc(14px + 2vw + 1vh);
 }
 
+img{
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+
 .hud__score {
 	top: 0.65em;
 	left: 0.65em;
