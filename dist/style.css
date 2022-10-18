@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+img {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+  width: 70px;
+  height: 70px;
+}
+
+.apk {
+  position: absolute;
+  left: 25vw;
+  top: 50%;
+  font-size: 3em;
+}
+
+.by {	
+  position: absolute;	
+  width: 100%;
+  text-align: center;
+  bottom: -19px;
+  opacity: 0.3;
+  font-size: 1.9em;
+  font-family: monospace;
+  font-weight: lighter;
+  color: #c3c3c3;
+}
+
+.pentahedron {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  fill: #3e82f773;
+}
+
+.point {
+  fill: #8491A373;
+}
+
+.rhombus {
+  fill: #2DA94F73;
+  stroke: #2DA94F73;
+}
+
+.x {
+  fill: #FDBD0073;
+}
+
+.circle {
+  fill: #ED412D73;
+}
+
+svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 417px) {
+  img{
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    width: 47px;
+    height: 47px;
+  }
+
+  .by {	
+    position: absolute;	
+    width: 100%;
+    text-align: center;
+    bottom: -17px;
+    opacity: 0.3;
+    font-size: 1.53em;
+    font-family: monospace;
+    color: #c3c3c3;
+  }
+}
